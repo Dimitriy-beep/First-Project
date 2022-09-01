@@ -1,23 +1,41 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 1em; /* Отступ снизу */
+}
 .center { text-align: center }
 header {
-background: linear-gradient(#ffbc7c, #ffb14a);
+background: #c78649;
 text-align: center;
+font-family: Comic Sans MS, Comic Sans, cursive;
 }
-ul {
+.ul {
     list-style: none;
 margin: 0px;
 padding: 20px;
+font-size: 30%;
 }
 a {
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px;
     color: #293133;
     text-decoration: none;
 }
 a:hover {
-    color: #7bff00;
+    color: #0044ff;
     text-decoration: none;
 }
-li {
+.li {
     display: inline;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.text-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
